@@ -1,0 +1,25 @@
+{
+    "name": "pgwireless/mongo-migration",
+    "type": "project",
+    "authors": [
+        {
+            "name": "lixin",
+            "email": "lixin_gg@126.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PGWireless/db-storage"
+        }
+    ],
+    "require": {
+        "ext-mongodb": "^1.7",
+        "pgwireless/db-storage": "dev-msf"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./"
+        }
+    }
+}

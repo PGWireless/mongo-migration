@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "adb23c11f847dd69d3063e675e63bf89",
+    "packages": [
+        {
+            "name": "pgwireless/db-storage",
+            "version": "dev-msf",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PGWireless/db-storage.git",
+                "reference": "d6465625a54255b95cd56635333f89b0cfa82205"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PGWireless/db-storage/zipball/d6465625a54255b95cd56635333f89b0cfa82205",
+                "reference": "d6465625a54255b95cd56635333f89b0cfa82205",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DBStorage\\Codec\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "lixin",
+                    "email": "lixin_gg@126.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/PGWireless/db-storage/tree/msf",
+                "issues": "https://github.com/PGWireless/db-storage/issues"
+            },
+            "time": "2021-09-07T05:25:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "pgwireless/db-storage": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-mongodb": "^1.7"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
